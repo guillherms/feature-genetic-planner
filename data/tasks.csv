@@ -1,0 +1,14 @@
+Task,Description,Depends on,Duration,Priority
+1,Create order database,,16,3
+2,Create product and inventory API,,12,2
+3,Create order API,1,24,3
+4,Create cart page (frontend),2,8,2
+5,Create checkout page (frontend),3;4,20,3
+6,Implement user authentication,,12,2
+7,Integrate authentication into frontend,6,8,1
+8,Create payment API,3,16,3
+9,Create payment frontend,5;7,16,3
+10,Unit and integration testing,8;9,24,2
+11,Deploy to staging,10,8,1
+12,QA testing,11,12,2
+13,Deploy to production,12,4,1
