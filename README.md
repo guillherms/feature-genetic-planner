@@ -18,10 +18,10 @@ Minimizar o tempo total (makespan) e/ou maximizar a entrega de valor priorizado.
 ## 📁 Estrutura do Projeto
 .
 ├── app/
-│   └── app.py
+│   └── app.py                  # Script principal para execução
 ├── data/
-│   └── tasks.csv
-└── src/
-    └── genetic_algorithm.py
-├── README.md
-├── requirements.txt
+│   └── tasks.csv               # Base de dados com as tarefas e dependências
+├── src/
+│   └── genetic_algorithm.py    # Implementação do algoritmo genético (PyGAD ou outro)
+├── README.md                   # Documentação do projeto
+├── requirements.txt            # Arquivo com dependências do projeto
