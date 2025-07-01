@@ -1,4 +1,5 @@
 # Genetic Algorithm - Feature Planner
+Codificação Combinatória
 
 ## 🎯 Objetivo
 Minimizar o tempo total (makespan) e/ou maximizar a entrega de valor priorizado.
@@ -15,13 +16,10 @@ Minimizar o tempo total (makespan) e/ou maximizar a entrega de valor priorizado.
 - Pandas
 - streamlit
 
-## 📁 Estrutura do Projeto
-.
-├── app/
-│   └── app.py                  # Script principal para execução
-├── data/
-│   └── tasks.csv               # Base de dados com as tarefas e dependências
-├── src/
-│   └── genetic_algorithm.py    # Implementação do algoritmo genético (PyGAD ou outro)
-├── README.md                   # Documentação do projeto
-├── requirements.txt            # Arquivo com dependências do projeto
+## 📁 Passo a passo
+1.  Carregar e modelar os dados
+2.  Definir o cromossomo
+3.  Criar população inicial
+4.  Avaliar os indivíduos (função de fitness)
+7.  Selecionar os melhores indivíduos
+8.  Gerar nova população
